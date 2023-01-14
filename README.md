@@ -1,6 +1,6 @@
 # MaskWechat
 
-[Source link / 项目地址](https://github.com/Mingyueyixi/MaskWechat)
+[Source Link / 源码地址](https://github.com/Mingyueyixi/MaskWechat)
 
 
 ## 介绍
