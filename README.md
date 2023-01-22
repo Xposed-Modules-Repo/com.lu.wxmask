@@ -28,7 +28,7 @@ PS.
 
 PS.
 - 其他版本号以及32位版本未经测试，不保证功能可用
-- 模块一般只测试通过了最后一个微信版本，因为作者精力有限+穷没有多余手机测试
+- 模块一般只测试通过了最后一个适配的微信版本，因为作者精力有限+穷没有多余手机测试
 - 微信版本集合： https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true
 
 ## 清除配置
