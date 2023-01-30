@@ -48,6 +48,13 @@ PS.
 - 微信版本集合： https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true
 
 
+## 交流
+
+QQ群：点击添加 [549614926](https://qm.qq.com/cgi-bin/qm/qr?k=J884tv29im41_SuTo1Hm_gapAL6gBySJ&authKey=6jUdcjVCpYgDGmLsZmtkCtxJQY+oas0RACQ6vS9E+4xpMRB6858C/OMLhlSKxZRC&noverify=0)
+
+CI编译telegram频道:点击添加 [MaskWechatCI](https://t.me/MaskWechatCI)
+
+
 ## 声明
 
 1. App旨在学习开发，请勿用于非法用途
