@@ -51,11 +51,10 @@ v1.13版本开始，默认隐藏App在桌面的图标。隐藏以后，打开模
 2. 从网页链接（deeplink）打开App
 
 **PS.**   
-- App主页跳转链接：<a href="maskwechat://com.lu.wxmask">maskwechat://com.lu.wxmask</a>  
-- 小米系统可通过系统的”扫一扫“扫描当前二维马直接打开，其他app如浏览器需可点击短链打开：[https://sourl.cn/sPfEeY](https://sourl.cn/sPfEeY)  
+- App主页跳转链接：[maskwechat://com.lu.wxmask](maskwechat://com.lu.wxmask)  
+- 小米系统可通过系统的”扫一扫“扫描上述链接对应的二维马直接打开，其他app如浏览器需可点击短链打开：[https://sourl.cn/sPfEeY](https://sourl.cn/sPfEeY)，可以保存为书签  
 - 微信/QQ不支持通过此类链接跳转  
 - 自行配置 html 如：`<a href="maskwechat://com.lu.wxmask">maskwechat://com.lu.wxmask</a>`  
-
 
 ## 适配版本
 
