@@ -62,7 +62,8 @@ v1.13版本开始，默认隐藏App在桌面的图标。隐藏以后，打开模
 
 8.0.22 (2140) 2022-04-29  
 8.0.32 (2300) 2023-01-06  
-8.0.33 (2320) 2023-02-23  
+8.0.33 (2320) 2023-02-23
+8.0.34 (2340) 2023-03-23
 
 **PS.**
 - 仅支持上述版本，所有其他版本号以及32位版本未经测试，预计百分之九十九不可用
@@ -97,10 +98,11 @@ SHA1: 45A408C5222C1A03D3B7C84F06DA97AD2F5B4ADC
 8.0.33（2320）：[https://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk)  
 SHA1: 8069F4730CF8839BE68609EF2F4702349E23A86B  
 
-8.0.34（2340）: [https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk)
+8.0.34（2340）: [https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk)  
+SHA1: 30D0D0C25561D367A9E359A1804EA90352BEA7F5  
 
 
-推荐8.0.32（2300）、8.0.33（2340），因为：
+推荐8.0.32（2300）、8.0.33（2320），因为：
 
 - 自2.11版本以来，正在逐步放弃支持8.0.22版本微信
 - 8.0.34虽然适配，但是可能存在未知的bug
