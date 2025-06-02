@@ -65,6 +65,15 @@ v1.13版本开始，默认隐藏App在桌面的图标。隐藏以后，打开模
 - 微信/QQ不支持通过此类链接跳转
 - 自行配置 html 如：`<a href="maskwechat://com.lu.wxmask">maskwechat://com.lu.wxmask</a>`
 
+### 聊天页面输入框口令（Since v2.5）
+
+支持在聊天页面的输入框根据输入特定文字执行任务：
+#add：加入隐藏列表；  
+#show：临时解除；  
+#hide：临时隐藏，离开聊天页面就无效了；  
+#del：从隐藏列表中移除；  
+#copyId： 复制wxid；  
+
 ## 适配版本
 
 play store版本：  
@@ -94,6 +103,10 @@ play store版本：
 8.0.47 (2560) 2024-02-01
 8.0.49 (2600) 2024-04-22
 8.0.50 (2701) 2024-07-02
+8.0.51 (2720) 2024-09-14
+8.0.55 (2740) 2024-12-16
+8.0.56 (2800) 2025-01-07
+8.0.58 (2841) 2025-04-22
 
 **PS.**
 - 仅支持上述版本，所有其他版本号以及32位版本未经测试，预计百分之九十九不可用
@@ -122,56 +135,70 @@ play store版本：
 
 以下链接来自官网：  
 8.0.22（2140）：[https://dldir1.qq.com/weixin/android/weixin8022android2140_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8022android2140_arm64.apk)  
-SHA1: 2FAB9BF8E160F38494FE7D6D4D7A56DF63B6EB58
+SHA1: 2FAB9BF8E160F38494FE7D6D4D7A56DF63B6EB58  
 
 8.0.32（2300）：[https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk](https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk)  
-SHA1: 45A408C5222C1A03D3B7C84F06DA97AD2F5B4ADC
+SHA1: 45A408C5222C1A03D3B7C84F06DA97AD2F5B4ADC  
 
 8.0.33（2320）：[https://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk)  
-SHA1: 8069F4730CF8839BE68609EF2F4702349E23A86B
+SHA1: 8069F4730CF8839BE68609EF2F4702349E23A86B  
 
 8.0.34（2340）: [https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk)  
-SHA1: 30D0D0C25561D367A9E359A1804EA90352BEA7F5
+SHA1: 30D0D0C25561D367A9E359A1804EA90352BEA7F5  
 
 8.0.35 (2360): [https://dldir1.qq.com/weixin/android/weixin8035android2360_arm64_3.apk](https://dldir1.qq.com/weixin/android/weixin8035android2360_arm64_3.apk)  
-SHA1: 5593FB24667D44ABD2299EF1118CD3498099B719
+SHA1: 5593FB24667D44ABD2299EF1118CD3498099B719  
 
 8.0.37（2380）：[https://dldir1.qq.com/weixin/android/weixin8037android2380_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8037android2380_arm64_1.apk)  
-SHA1: 410E675B0014F6DF768825F647F69D98A110D50D
+SHA1: 410E675B0014F6DF768825F647F69D98A110D50D  
 
 8.0.38（2400）：[https://dldir1.qq.com/weixin/android/weixin8038android2400_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8038android2400_arm64.apk)  
-SHA1: F62FAD64F70F1181EC62DD3BD796A047028078FA
+SHA1: F62FAD64F70F1181EC62DD3BD796A047028078FA  
 
 8.0.40（2420）：[https://dldir1.qq.com/weixin/android/weixin8040android2420_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8040android2420_arm64.apk)  
-SHA1: BCCA3CCACE5F40184A42FEFB06190C7279024985
+SHA1: BCCA3CCACE5F40184A42FEFB06190C7279024985  
 
 8.0.41（2441）：[https://dldir1.qq.com/weixin/android/weixin8041android2441_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8041android2441_arm64_1.apk)    
-SHA1: 51D3E1C9594723FE8A69B68780C4B561964C7718
+SHA1: 51D3E1C9594723FE8A69B68780C4B561964C7718  
 
 8.0.42（2460）：[https://dldir1.qq.com/weixin/android/weixin8042android2460_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8042android2460_arm64.apk)    
-SHA1: 227E395C67A2C0B0BCC750E1A3C52F642B433441
+SHA1: 227E395C67A2C0B0BCC750E1A3C52F642B433441  
 
 8.0.43（2480）：[https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b35_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b35_arm64.apk)    
-SHA1: C46C85AF05130EDABCDBA8D487A5373ECE4AE6D0
+SHA1: C46C85AF05130EDABCDBA8D487A5373ECE4AE6D0  
 
 8.0.44（2502）：[https://dldir1.qq.com/weixin/android/weixin8044android2502_0x28002c36_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8044android2502_0x28002c36_arm64.apk)    
-SHA1: 38525994D6D69106CDB3D6F9F62B045CFF9CC4D5
+SHA1: 38525994D6D69106CDB3D6F9F62B045CFF9CC4D5  
 
 8.0.45（2521）：[https://dldir1.qq.com/weixin/android/weixin8045android2521_0x28002d34_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8045android2521_0x28002d34_arm64_1.apk)    
-SHA1: F44F35663E2A2C3BF9EA671270D65902AB5727DA
+SHA1: F44F35663E2A2C3BF9EA671270D65902AB5727DA  
 
 8.0.46（2540）: [https://dldir1.qq.com/weixin/android/weixin/android/weixin8046android2540_0x28002e34_arm64.apk](https://dldir1.qq.com/weixin/android/weixin/android/weixin8046android2540_0x28002e34_arm64.apk)    
-SHA1: 173D8632093949D7AB1DA6D8B8CB5C1252876BEB
+SHA1: 173D8632093949D7AB1DA6D8B8CB5C1252876BEB  
 
 8.0.47（2560）: [https://dldir1.qq.com/weixin/android/weixin8047android2560_0x28002f36_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8047android2560_0x28002f36_arm64.apk)    
-SHA1: 79F1341563A9CCCAF3090D27A5E9D529008EEC42
+SHA1: 79F1341563A9CCCAF3090D27A5E9D529008EEC42  
 
 8.0.49（2600）: [https://dldir1.qq.com/weixin/android/weixin8049android2600_0x2800313d_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8049android2600_0x2800313d_arm64.apk)    
-SHA1: 6F2B100D9A14833E371651017E154147C21BC6B9
+SHA1: 6F2B100D9A14833E371651017E154147C21BC6B9  
 
 8.0.50（2701）: [https://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323e_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323e_arm64.apk)    
-SHA1: EC9A3352879B3B9793A9FA1A9FCCD31D48F88DB0
+SHA1: EC9A3352879B3B9793A9FA1A9FCCD31D48F88DB0  
 
+8.0.51（2740）[https://dldir1.qq.com/weixin/android/weixin8053android2740_0x28003532_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8053android2740_0x28003532_arm64.apk)  
+SHA1: E98D7BA57E14E927D1E37D04E0B099E9B5C4A73F  
+
+8.0.51（2720）[https://dldir1.qq.com/weixin/android/weixin8051android2720_0x28003333_arm64_1.apk](https://dldir1.qq.com/weixin/android/weixin8051android2720_0x28003333_arm64_1.apk)  
+SHA1: E98D7BA57E14E927D1E37D04E0B099E9B5C4A73F  
+
+8.0.53（2740）[https://dldir1.qq.com/weixin/android/weixin8053android2740_0x28003532_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8053android2740_0x28003532_arm64.apk)  
+SHA1: 249366AE1497D1089709D8EC6DEE1401141719B4  
+
+8.0.56（2800）[https://dldir1.qq.com/weixin/android/weixin8056android2800_0x280038f8_arm64.apk](https://dldir1.qq.com/weixin/android/weixin8056android2800_0x280038f8_arm64.apk)  
+SHA1: b4ac5f767499526553b8236203415bcacac5a68b
+
+8.0.58（2841）[https://dldir1v6.qq.com/weixin/android/weixin8058android2841_0x28003a3f_arm64.apk](https://dldir1v6.qq.com/weixin/android/weixin8058android2841_0x28003a3f_arm64.apk)  
+SHA1: 611660980f298079502545512d361db9f0a9216f
 
 推荐适配的最后两个版本，因为其他版本，作者自己不再使用
 
